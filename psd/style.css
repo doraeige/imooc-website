@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+.top {
+	width: 100%;
+	height: 27px;
+	background: url(./images/top_bg.jpg) repeat-x;
+}
+.top-content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.top-content li {
+	width: 70px;
+	float: right;
+	list-style-image: url(./images/li_bg.gif); 
+	line-height: 27px;
+}
+.top-content a:link,
+.top-content a:visited {
+	color: #8E8E8E;
+	text-decoration: none;
+}
+.top-content a:hover,
+.top-content a:active {
+	color: #900;
+	text-decoration: none;
+}
+
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 80px;
+	background-color: #fff; 
+}
+.logo-left {
+	width: 200px;
+	float: left;
+}
+.logo-right	{
+	width: 300px;
+	height: 28px;
+	float: right;
+	margin-top: 26px;
+	color: #8E8E8E;
+}
+.logo-right img {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.tel {
+	font-size: 18px;
+	color: #C00;
+}
+
+
+.nav {
+	height: 40px;
+	/* 怪现象：如果取消以下两项，导航条无法正常显示*/
+	width: 1000px;
+	overflow: hidden;
+}
+
+.nav-left {
+	width: 10px;
+	height: 40px;
+	float: left;
+	background: url(./images/nav_left.jpg) no-repeat;
+}	
+
+.nav-mid {
+	width: 980px;
+	float: left;
+	background: url(./images/nav_bg.jpg) repeat-x;
+}
+
+.nav-mid-left {
+	width: 680px;
+}
+.nav-mid-left li {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+}
+
+.nav-mid-left a:link,
+.nav-mid-left a:visited
+{
+	text-decoration: none;
+	color:#fff;
+	font-size: 16px;
+}
+
+.nav-mid-left a:hover,
+.nav-mid-left a:active
+{
+	text-decoration: none;
+	color: #FF0;
+	font-size: 16px;
+}
+
+.nav-mid-right {
+	width: 300px;
+	float: right;
+}
+.search-text {
+	width: 190px;
+	height: 25px;
+	margin-top: 6px;
+	border: 1px solid #fff; 
+	background: url(./images/search.jpg) no-repeat right center;
+	background-color: #fff;
+	/* 输入的文字或数字不覆盖搜索图片（背景图）用 填充 padding-right 值*/
+	padding-right: 30px;
+}
+
+.nav-right {
+	width: 10px;
+	height: 40px;
+	background: url(./images/nav_right.jpg) no-repeat;
+	float: left;
+}
+
+
+
+
