@@ -41,11 +41,12 @@ body {
 
 .logo {
 	height: 80px;
-	background-color: #fff; 
+	background-color: #fff;
+	position: relative; 
 }
 .logo-left {
 	width: 200px;
-	float: left;
+	position: absolute;
 }
 .logo-right	{
 	width: 300px;
@@ -66,9 +67,6 @@ body {
 
 .nav {
 	height: 40px;
-	/* 怪现象：如果取消以下两项，导航条无法正常显示*/
-	width: 1000px;
-	overflow: hidden;
 }
 
 .nav-left {
@@ -132,6 +130,10 @@ body {
 	height: 40px;
 	background: url(./images/nav_right.jpg) no-repeat;
 	float: left;
+}
+
+.ad {
+	height: 328px;
 }
 
 
