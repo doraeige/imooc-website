@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+.top {
+	width: 100%;
+	height: 27px;
+	background: url(./images/top_bg.jpg) repeat-x;
+}
+.top-content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.top-content li {
+	width: 70px;
+	float: right;
+	list-style-image: url(./images/li_bg.gif); 
+	line-height: 27px;
+}
+.top-content a:link,
+.top-content a:visited {
+	color: #8E8E8E;
+	text-decoration: none;
+}
+.top-content a:hover,
+.top-content a:active {
+	color: #900;
+	text-decoration: none;
+}
+
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 80px;
+	background-color: #fff;
+	position: relative; 
+}
+.logo-left {
+	width: 200px;
+	position: absolute;
+}
+
+.logo-right	{
+	width: 300px;
+	height: 28px;
+	float: right;
+	margin-top: 26px;
+	color: #8E8E8E;
+}
+
+.logo-right img {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.tel {
+	font-size: 18px;
+	color: #C00;
+}
+
+.nav {
+	height: 40px;
+}
+
+.nav-left {
+	width: 10px;
+	height: 40px;
+	float: left;
+	background: url(./images/nav_left.jpg) no-repeat;
+}	
+
+.nav-mid {
+	width: 980px;
+	float: left;
+	background: url(./images/nav_bg.jpg) repeat-x;
+}
+
+.nav-mid-left {
+	width: 680px;
+}
+
+.nav-mid-left li {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+}
+
+.nav-mid-left a:link,
+.nav-mid-left a:visited
+{
+	text-decoration: none;
+	color:#fff;
+	font-size: 16px;
+}
+
+.nav-mid-left a:hover,
+.nav-mid-left a:active
+{
+	text-decoration: none;
+	color: #FF0;
+	font-size: 16px;
+}
+
+.nav-mid-right {
+	width: 300px;
+	float: right;
+}
+
+.search-text {
+	width: 190px;
+	height: 25px;
+	margin-top: 6px;
+	border: 1px solid #fff; 
+	background: url(./images/search.jpg) no-repeat right center;
+	background-color: #fff;
+	/* 输入的文字或数字不覆盖搜索图片（背景图）用 填充 padding-right 值*/
+	padding-right: 30px;
+}
+
+.nav-right {
+	width: 10px;
+	height: 40px;
+	background: url(./images/nav_right.jpg) no-repeat;
+	float: left;
+}
+
+.ad {
+	height: 243px;
+}
+
+.main {
+	height: 300px;
+	position: relative;
+	margin-top: 5px;
+	background-color: #FFF;
+}
+
+.main-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 250px;
+	height: 300px;
+	border: 1px solid #ccc;
+}
+
+.title {
+	border-bottom: 2px solid #E8E8E8;
+	font-weight: bold;
+	height: 37px;
+	font-size: 14px;
+	color: #6e6767;
+	text-indent: 20px;
+	line-height: 37px;
+}
+
+.title-right {
+	border-bottom: 3px solid #b15050;
+}
+
+.news-nav {
+	margin-top: 10px;
+}
+
+.news-nav li {
+	list-style-type: none;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.news-nav li a{
+	color: #666;
+	background: url(./images/li_bg.gif) no-repeat left center;
+	padding-left: 15px;
+	display: block;
+	text-decoration: none;
+}
+
+.news-nav li a:hover {
+	color:#d04949;
+	background: url(./images/li_bg2.gif) no-repeat left center;
+	background-color: #F2F2F2;
+}
+
+.main-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 740px;
+	min-height: 300px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+}
+
+.news-list li {
+	list-style-type: none;
+	margin:15px 0 10px 5px;
+	border-bottom: 2px dotted #E8E8E8;
+	background: url(./images/list.jpg) no-repeat left bottom;
+}
+.news-list span {
+	float: right;
+	color: #938f8f;
+	margin-right: 5px;
+}
+
+.news-list a,
+.news-nav a {
+	text-decoration: none;
+	margin-left: 5px;
+	cursor: pointer; 
+}
+
+.news-list a:link,
+.news-list a:visited {
+	color:#000;
+}
+
+.news-list a:hover,
+.news-list a:active {
+	color:#d04949;
+}
+
+.page {
+	height: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.page a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.page a:link,
+.page a:visited {
+	color:#000;
+}
+
+.page a:hover,
+.page a:active {
+	color:#d04949;
+}
+	
+
+
+
+
+.copyright {
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+	background-color: #E8E8E8;
+}
+
+.copyright-content {
+	width: 1000px;
+	height: 160px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.copyright-content ul li {
+	width: 200px;
+	float: left;
+	list-style: none;
+	color: #999;
+	font-size: 18px;
+	background: url(./images/line.png) no-repeat right center;	
+	text-align: center;
+	line-height: 28px;
+}
+
+.copyright-content li a {
+	font-size: 14px;
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+.copyright-content li a:hover,
+.copyright-content li a:active {
+	color:#d04949;
+}
