@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-size: 12px;
+	font-family: monospace;
 }
 
 .container {
@@ -94,8 +95,12 @@
 }
 .course p {
 	width: 328px;
-	border: 1px solid #ccc;
+	height: 18px;
+	border: 1px solid #cccccc70;
 	text-align: center;
+	margin-top: -3px;
+	margin-bottom: 15px;
+	line-height: 18px;
 }
 .main {
 	position: relative;
@@ -146,7 +151,6 @@
 .list-left p {
 	color: #efe6e6;
 	font-size: 14px;
-	margin-top: 3px;
 }
 .list-right	{
 	width: 275px;
@@ -193,7 +197,7 @@
 
 .group {
 	height: 80px;
-	padding-top: 10px;
+	padding-top: 8px;
 	padding-left: 5px;
 }
 .group p {
@@ -204,7 +208,7 @@
 	background-color: #E8E8E8;
 }
 .copyright {
-	width: 500px;
+	width: 555px;
 	height: 50px;
 	font-size: 14px;
 	margin: 10px auto;
