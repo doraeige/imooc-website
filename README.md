@@ -1,5 +1,5 @@
 # imooc-website
- Curriculum practice site
+ 慕课网练习
  
  ## how to View the project
  * Click on this link to view: http://inmy.love/imooc-website/index.html
