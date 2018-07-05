@@ -1,4 +1,4 @@
-# meku-website
+# imooc-website
  Curriculum practice site
  
  ## how to View the project
