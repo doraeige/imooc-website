@@ -218,7 +218,7 @@ body {
 .news-list li {
 	list-style-type: none;
 	margin-left: 5px;
-	padding: 5px;
+	padding: 1px;
 	border-bottom: 2px dotted #E8E8E8;
 	background: url(../images/list.jpg) no-repeat left bottom;
 }
